@@ -32,17 +32,18 @@
 	<link rel="stylesheet" href="css/responsive.css" />
 	
 	<!--=== Color Scheme Stylesheets ===-->
-
-	<link rel="stylesheet" id="scheme-source" href="css/schemes/violet.css"/>
 	<link rel="stylesheet" href="css/schemes/red.css" disabled />
 	<link rel="stylesheet" href="css/schemes/orange.css" disabled />
-	<link rel="stylesheet" href="css/schemes/gray.css" disabled/>
+	<link rel="stylesheet" id="scheme-source" href="css/schemes/violet.css" />
 	
 	
 	<link rel="stylesheet" href="css/color-switcher.css" />
-
-	<script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-	<script src="http://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	
+	<!--=== Internet explorer 8 fix ===-->
+	<!-- [if lt IE 9]>
+		<script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="http://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif] -->
 	
 	
 </head>
@@ -77,7 +78,6 @@
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-responsive-collapse">
 									<span class="sr-only">Toggle navigation</span>
-									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
@@ -1292,15 +1292,16 @@
 	<!--=== Color Scheme section Starts ===-->
 	<section id="section-colors" class="color-panel panel-close center">
 		<div class="color-wrap">
-		<h3>Chameleon</h3>
+		<h3>Choose Your Color</h3>
 		<span class="fa fa-gears panel-ticker"></span>
 			<div class="pallet-row">
-				<a href="#" class="color-pallet color-violet" title="violet"></a>
 				<a href="#" class="color-pallet color-red" title="red"></a>
 				<a href="#" class="color-pallet color-orange" title="orange"></a>
-				<a href="#" class="color-pallet color-gray" title="gray"></a>
+				<a href="#" class="color-pallet color-violet" title="violet"></a>
 			</div>
-			</div>
+			<hr />
+			<p>Other Home styles coming soon</p>
+		</div>
 	</section>
 	<!--=== Color Scheme section Ends ===-->
 	
@@ -1333,7 +1334,7 @@
 <script>
 	$(window).load(function() {
 		'use strict';
-		$('.fb-popup').delay(10000).fadeIn();
+		$('.fb-popup').delay(20000).fadeIn();
 		$('.fb-close').click(function() {
 			$('.fb-popup').fadeOut();
 		})

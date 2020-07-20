@@ -1,34 +1,3 @@
-/* ==================== CSS Structure ==================== 
-1. COMMON STYLES
-	- Reset Styles
-	- Common Classes
-	- Pre Loader Styles
-	
-2. HTML ELEMENTS STYLE
-	- Button Styles
-
-3. HEADER SECTION
-	- Main Navigation Styles
-	- Home section
-	
-4. FEATURE SECTION
-5. SERVICE SECTION
-6. STEP SECTION
-7. Video SECTION
-
-8. SCREENSHOT SECTION
-	- ScreenShots hover effect style
-
-9. TESTIMONIAL SECTION
-10. PRICING SECTION
-	- Folding Effect
-
-11. SUBSCIBE SECTION
-12. DOWNLOAD SECTION
-13. CONTACT SECTION
-14. FOOTER SECTION
-========================================================== */
-
 
 /* --------------- Reset Styles --------------- */
 body {
@@ -781,8 +750,8 @@ margin-right: 8px;
 
 .client-photos .photo-hold {
 	display:inline-block;
-	width: 220px;
-	height: 220px;
+	width: 200px;
+	height: 200px;
 	padding: 10px;
 	margin-right: 20px;
 	border: 1px solid;

@@ -252,7 +252,7 @@ $(document).ready(function() {
 	'use strict';
 	$('#subscription-form').ajaxChimp({
 		callback: mailchimpCallback,
-		url: 'https://www.facilitar.org'
+		url: 'YOUR_URL' /* Replace it with your custom URL inside '' */
 	});
 	
 	function mailchimpCallback(resp) {
