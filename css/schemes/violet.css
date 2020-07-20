@@ -1,0 +1,56 @@
+/*
+#E74C3C
+#C0392B
+
+*/
+
+
+::-moz-selection {
+    color: #ffffff;
+    background: violet;
+}
+
+::selection {
+    color: #ffffff;
+    background: violet;
+}
+
+.btn-col,
+.project-details h5, 
+.project-info h5 {
+border-color: violet;
+color: violet;
+}
+
+.btn-col:hover {
+color: violet;
+}
+
+.section-title h3, 
+.section-title h4,
+.step-no,
+.sub-steps .icon,
+.sub-steps .sub-text,
+.testimonial .happy-client,
+.client-photos .photo-hold {
+border-color: violet;
+}
+
+.color-scheme,
+.service-icon,
+.step-no .no-inner,
+.site-name:hover,
+.project-details .details-list li .strong,  
+.social-icons ul li a:hover {
+color: violet;
+}
+
+.site-name span,
+.photo-overlay h4 {
+background-color: violet;
+}
+
+.photo-zoom:before {
+	border-color: rgba(0, 255, 255, 0) rgba(255, 0, 255, 0) rgb(241, 134, 227) rgba(255, 255, 10, 0);
+
+}
